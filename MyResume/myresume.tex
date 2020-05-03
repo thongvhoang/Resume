@@ -1,11 +1,6 @@
-%-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
-%------------------------
-
-\documentclass[letterpaper,11pt]{article}
-
+\documentclass[11pt,letterpaper]{article}
+% \usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -15,7 +10,6 @@
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -30,175 +24,173 @@
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
-\urlstyle{same}
+% \raggedbottom
+% \raggedright
 
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
+\usepackage{latexsym}
+\usepackage{hyperref}
+\usepackage[empty]{fullpage}
+% \usepackage{titlesec}
+% \usepackage{marvosym}
+% \usepackage[usenames,dvipsnames]{color}
+% \usepackage{verbatim}
+% \usepackage{enumitem}
+% \usepackage[pdftex]{hyperref}
+% \usepackage{fancyhdr}
+\setlength{\topmargin}{ -15 mm}
+% \usepackage{fancyheadings}
+% \pagestyle{fancy}
+% \fancyhf{} % clear all header and footer fields
+\usepackage{fontawesome} %library symbol
+\usepackage{marvosym} % library symbol letter
+\usepackage{pifont}
+\usepackage[dvipsnames]{xcolor}
+% \renewcommand{\familydefault}{\sfdefault}
 
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{ #2 \vspace{-2pt}}
-  }
-}
+% 
+\usepackage[default]{gfsbodoni}
+\usepackage[T1]{fontenc}
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
-}
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-
-\renewcommand{\labelitemii}{$\circ$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \usepackage{fontspec}
+% \setmainfont{Baskerville}
 
 
 \begin{document}
 
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://www.linkedin.com/in/thongvhoang/}{\Large Thong Hoang Vo}} & Email :  \href{mailto:vhthongvn@gmail.com}{vhthongvn@gmail.com}\\
-  \href{www.linkedin.com/in/thongvhoang}{LinkedIn |} 
-  \href{https://github.com/thongvhoang}{Github: thongvhoang}& Mobile :  0522004060 \\
-\end{tabular*}
+% -----------------HEADING------------------
+\begin{center}
+{\Huge {\bfseries THONG HOANG VO \\}}
+\vspace{3mm}
+\faMobile \hspace{1mm}+84 522004060 \ding{120} \faGithub \href{https://github.com/thongvhoang}{ thongvhoang} \ding{120} \faLinkedin \href{https://www.linkedin.com/in/thongvhoang/}{ thongvhoang} \ding{120}  \Letter \href{mailto:vhthongvn@gmail.com}{ vhthongvn} 
 
 
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of Information Technology Vietnam National University }{Ho Chi Minh City}
-      {Bachelor of Data Science (Unfinished)}
-      {August 2018 - August 2022 (Expected)}
-    % \resumeSubheading
- 
-  \resumeSubHeadingListEnd
+\end{center}
+%-----------EDUCATION-----------------------
+\section*{\large\scshape\raggedright\bfseries EDUCATION } 
+\vspace{3mm}
+\begin{itemize}[leftmargin=*]
 
-%--------PROGRAMMING SKILLS------------
-\section{Skills}
- \resumeSubHeadingListStart
- \resumeSubItem{}{
-     \textbf{Proficient}{: Python, C/C++, PostgreSQL, Git, Github, Scrapy}
-     }
- \resumeSubItem{}{
-     \textbf{Familiar}{: InfluxDB, HTML, CSS, JavaScript, NumPy, Pandas, Scikit-learn, Seaborn, Linux Shell  }
-    }
- \resumeSubHeadingListEnd
+\item 
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\small VNUHCM - University of Information Technology} & \textit{ \small Aug 2018 - Aug 2022 (Expected)} \\ 
 
-%-----------EXPERIENCE-----------------
-% \section{Experience}
-%   \resumeSubHeadingListStart
+\end{tabular*}\vspace{-5pt}
 
-%     \resumeSubheading
-%       {Citicorp}{Chennai}
-%       {Full Stack Developer - Full time}{July 2019 - Present}
-%       \resumeItemListStart
-%         \resumeItem{}
-%           {Part of the Citi Retail Services (CRS) Acquisitions team that serves over 35 partners in the NAM region. }
-%         \resumeItem{}
-%         {Followed the Agile model and worked extensively in Angular, Java Springboot Microservices and PCF cloud technologies for deployment.}
-%       \resumeItemListEnd
+\hspace{3mm}
+\textit{\small Bachelor of Science, major: Data Science \\} 
+\hspace{3mm}
+\raggedright {\textit{\small Coursework: Statistical Machine Learning, Data Collection and Preprocessing, Data Structure and Algorithm, Object Oriented Programming}} \\
+\item 
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 
-%     \resumeSubheading
-%       {Hack For Social Good (SPI Cinemas)}{Chennai}
-%       {UI/UX Analyst - Intern}{May 2018 - Jul 2018}
-%       \resumeItemListStart
-%       \resumeItem{}
-%           {Part of the team of knowledge workers that brainstormed UI/UX Design ideas for aspiring startups.}
-%         \resumeItem{}
-%           {Restructured the User Interface for their website using Bootstrap framework, CSS, HTML and Vanilla Javascript.}
-%       \resumeItemListEnd
+\textbf{\small Le Quy Don Khanh Hoa High School for the Gifted} & \textit{ \small Aug 2015 - May 2018 } \\
 
-%     \resumeSubheading
-%       {Kognify}{Chennai}
-%       {Full Stack Developer - Intern}{Dec 2017 - Jan 2018}
-%       \resumeItemListStart
-%         \resumeItem{}
-%           {Created an automation tool using Angular and Material Design concepts to generate responsive static websites from a JSON file.}
-%          \resumeItem{}
-%           {Worked on HTTP communications(REST) and AdonisJs at the back-end.}
-%       \resumeItemListEnd
-%      \resumeSubheading
-%       {Check Health}{Chennai}
-%       {Software Developer - Intern}{Jun 2017 - Jul 2017}
-%       \resumeItemListStart
-%         \resumeItem{}
-%           {Used Ionic framework to create the profile page section for their hybrid app.
-%          }
-%          \resumeItem{}
-%           {Worked on Firebase for the back-end.}
-%       \resumeItemListEnd
+\end{tabular*}\vspace{-5pt}
 
-%   \resumeSubHeadingListEnd
+\hspace{3mm}
+\textit{\small High school education, class of Informatics}  \\ 
 
 
-%-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{Handwritten Digit Recognition Using K-Nearest Neighbour Classifier (April 2020)}
-      
-      {\newline Github:\href{github.com/thongvhoang/Statistical-machine-learning/tree/master/Learn-K-Nearest-Neighbors/Handwritten-digit-recognition}{ \textcolor{RoyalBlue}{\underline{github.com/thongvhoang/Statistical-machine-learning/tree/master/Learn-K-Nearest-Neighbors}}}
-      \smallskip 
-      \newline{Techstack: Scikit-learn, Python, Numpy, Matplotlib, Pandas}
-      } 
-    \resumeSubItem{Web Scraping:}
-      {Got Coronavirus cases data about total cases, daily new deaths, and country from Worldometer that stored data in InfluxDB (March 2020).
-      {\newline Github: \href{https://github.com/thongvhoang/Data-collection-and-preprocessing}{\textcolor{RoyalBlue}{\underline{github.com/thongvhoang/Data-collection-and-preprocessing}}}}
-      \smallskip 
-      {\newline{Techstack: Scrapy, Python, InfluxDB}}
-      }
-    \resumeSubItem{Artificial Intelligence Nutritionist:}
-      {Diet Recommendation System for Healthcare Service Based on User Information using Neural Network in Deep Learning and FatSecret Food Database. This project awarded Encouragement Prize in the Science and Technology Contest for high school students, Khanh Hoa Province, December 2017.
-      {\newline Github: \href{https://github.com/thongvhoang/ARTIFICIAL-INTELLIGENCE-NUTRITIONIST}{\textcolor{RoyalBlue}{\underline{github.com/thongvhoang/ARTIFICIAL-INTELLIGENCE-NUTRITIONIST}}}}
-      \smallskip 
-      {\newline{Techstack: Python, Keras, Numpy, FatSecret Platform API}}
-      }
-  \resumeSubHeadingListEnd
 
-%-------PUBLICATIONS------------------  
-% \section{Publications}
-%  \resumeSubHeadingListStart
-%   \resumeSubItem{}{Dr.T Shree Sharmila, Hemang Shah and Aadhithya Dinesh,
-%   \textbf{Analysis of facial landmark features to determine the best subset for finding facial orientation}, 2nd IEEE International Conference on Computational Intelligence in Data Science, (ICCIDS), February 21 – 23, 2019.}
-%  \resumeSubHeadingListEnd
+\end{itemize}
+% \vspace{3mm}
+%-----------SKILLS-----------------------
 
-%---------------------------------------
-\section{Accomplishments}
- \resumeSubHeadingListStart
- \resumeSubItem{}{
-    \textbf{Gold medal in 30/4 Informatics Olympiad}{ - Competed individually in 1 days to solve 3 algorithmic problems in 3 hours}{, Le Hong Phong High School For the Gifted, Ho Chi Minh City, April 2016.}
-    }
-    \resumeSubItem{}{
-    \textbf{Honor prize in High School Olympiad in Informatics 2016}{ - ◦ Competed individually in 2 days to solve 3 algorithmic problems in 3 hours on each day}{, Khanh Hoa Province, November 2016. }
-    }
-    % }
+\section*{\large\raggedright \textbf{SKILLS}} 
+\vspace{3mm}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{\small Proficient:} Python, C/C++, PostgreSQL, Git, Github, Scrapy
+    % \vspace{-15pt}
+    \item \textbf{\small Familiar:} InfluxDB, HTML, CSS, JavaScript, NumPy, Pandas, Scikit-learn, Seaborn, Linux Shell, Tableau, Latex
+    \item \textbf{\small Languages: }\raggedright Vietnamese (Mothertongue), English (Reading, Writing: Intermediate; Listening, Speaking: Basic)
+\end{itemize}
     
- \resumeSubHeadingListEnd
-%-------------------------------------
-%---------ACTIVITIES-------
-\section{ACTIVITIES}
-  \resumeSubHeadingListStart
-  \resumeSubItem{}{\href{https://bit.ly/354FYM9}{\textbf{Member of Free Contest}} :
-  {These contests is for young coders in different regions in Vietnam to improve their coding skill with our high-quality problems} (February 2016 - Present).}
-% \resumeSubheading
- 
-  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------------
+\section*{\large\raggedright\textbf{PROJECTS} } 
+\begin{itemize}[leftmargin=*]
+    \vspace{3mm}
+    
+    \item 
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Handwritten Digit Recognition Using K-Nearest Neighbour Classifier} & \textit{ \small Apr 2020}
+\end{tabular*}
+\begin{description}
+    \item \textbf{Github:} 
+    \href{https://github.com/thongvhoang/Statistical-Machine-Learning/tree/master/Learn-K-Nearest-Neighbors}{\textcolor{RoyalBlue}{\underline{github.com/thongvhoang/Statistical-machine-learning/tree/master/Learn-K-Nearest-Neighbors}}}
+    \item \textbf{Description:} \raggedright{Built the model which is able to recognize human handwritten digits (0 to 9).}
+    \item \textbf{Techstack:} Scikit-learn, Python, Numpy, Matplotlib, Pandas    
+\end{description}
+
+    \item 
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Web Scraping} & \textit{ \small Apr 2020}
+\end{tabular*}
+\begin{description}
+    \item \textbf{Github:} 
+    \href{https://github.com/thongvhoang/Data-collection-and-preprocessing}{\textcolor{RoyalBlue}{\underline{github.com/thongvhoang/Data-collection-and-preprocessing}}}
+    \item \textbf{Description:} \raggedright{ Virtualizing/Analyzing the Covid19 data from the Worldometer with InfluxDB. The model describes/shows the total cases, daily new deaths for each country in the world.}
+    \item \textbf{Techstack:} Scrapy, Python, InfluxDB    
+\end{description}
+    
+    \item 
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Artificial Intelligence Nutritionist} & \textit{ \small Sep - Dec 2017}
+\end{tabular*}
+\begin{description}
+    \item \textbf{Github:} 
+    \href{https://github.com/thongvhoang/ARTIFICIAL-INTELLIGENCE-NUTRITIONIST}{\textcolor{RoyalBlue}{\underline{github.com/thongvhoang/ARTIFICIAL-INTELLIGENCE-NUTRITIONIST}}}
+    \item \textbf{Description:} \raggedright{ Diet Recommendation System for Healthcare Service Based on User Information using Neural Network in Deep Learning and FatSecret Food Database. This project awarded Encouragement Prize in the Science and Technology Contest for high school students, Khanh Hoa Province, December 2017.}
+    \item \textbf{Techstack:} Python, Keras, Numpy, FatSecret Platform API   
+\end{description}
+    
+    
+\end{itemize}
+\vspace{3mm}
+%-----------ACCOMPLISHMENTS-----------------------
+\section*{\large\raggedright\textbf{ACCOMPLISHMENTS}} 
+\begin{itemize}[leftmargin=*]
+    \vspace{3mm}
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Honor prize in High School Olympiad in Informatics 2016} & \textit{ \small Nov 2016}\\
+    
+    \end{tabular*}\vspace{-5pt}
+    
+{\footnotesize Competed individually in 2 days to solve 3 algorithmic problems in 3 hours on each day, Khanh Hoa Province.
+}
+    \item 
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Gold medal in 30/4 Informatics Olympiad} & \textit{ \small Apr 2016}\\
+    % \vspace{-2pt}
+\end{tabular*}\vspace{-5pt}
+
+{\footnotesize Competed individually in 1 days to solve 3 algorithmic problems in 3 hours, Le Hong Phong High School For the Gifted, Ho Chi Minh City. }
+    
+\vspace{3mm}
+\end{itemize}
+
+%-----------ACTIVITIES-----------------------
+\section*{\large\raggedright\textbf{ACTIVITIES}} 
+
+\begin{itemize}[leftmargin=*]
+\vspace{3mm}
+
+\item 
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \href{https://bit.ly/354FYM9}{\textbf{\small Member of Free Contest}} & \textit{ \small Feb 2016 - Present} \\
+    % \vspace{-2pt}
+\end{tabular*}\vspace{-5pt}
+
+These contests is for young coders in different regions in Vietnam to improve their coding skill with our high-quality problems.
+
+\end{itemize}
 
 \end{document}
